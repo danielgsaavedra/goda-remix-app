@@ -1,0 +1,28 @@
+{
+  "private": true,
+  "sideEffects": false,
+  "scripts": {
+    "build": "remix build",
+    "dev": "remix dev"
+  },
+  "dependencies": {
+    "@prisma/client": "^4.9.0",
+    "@remix-run/node": "^1.11.1",
+    "@remix-run/react": "^1.11.1",
+    "@remix-run/vercel": "^1.11.1",
+    "@vercel/node": "^2.6.2",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "devDependencies": {
+    "@remix-run/dev": "^1.11.1",
+    "@remix-run/eslint-config": "^1.11.1",
+    "@remix-run/serve": "^1.11.1",
+    "eslint": "^8.27.0",
+    "prisma": "^4.9.0",
+    "standard": "^17.0.0"
+  },
+  "engines": {
+    "node": ">=14"
+  }
+}
